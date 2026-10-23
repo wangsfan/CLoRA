@@ -1,4 +1,4 @@
-# CLoRA: our implementation of *Clockwork Low-Rank Adaptation with Calibrated Classifiers for Online Continual Learning*.
+# The implementation of *Clockwork Low-Rank Adaptation with Calibrated Classifiers for Online Continual Learning*.
 
 
 ## 🚀 Abstract
