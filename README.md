@@ -3,6 +3,8 @@
 
 ## 🚀 Abstract
 
+As a continual  learning paradigm, online continual learning (OCL) receives  evanescent data streams and requires models to  evolve to fit non-stationary data automatically. That leads to three challenges: confusion boundary over training trajectory, insufficient knowledge accumulation, and severe stability-plasticity conundrum. Inspired from the Dual-Process Theory on human cognition, OCL requires a clock-like mechanism that can adaptively regulate model updates across multiple timescales. Hence, we incorporate clockwork systems with Low-rank adaptation (LoRA) together, and propose the Clockwork Low-Rank Adaptation Network with Calibrated Classifiers (CLoRANet). The core component is the CLoRA module, which formulates "clock signals" with two gradient statistics: the gradient energy reflects update intensity and the gradient conflict measures interference between new and old knowledge. Upon these clock signals, the CLoRA module defines event-triggered ticks, in order to monitor abrupt changes and gradual changes in gradient statistics and determine when and how the model updates. Combining it with the Synthesis Classifier and Semantic Drift Calibration modules, CLoRANet maintains calibrated and robust feature distributions over non-stationary data streams.
+
 ## 🖥️ Environment
 
 - Python 3.11
